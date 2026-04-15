@@ -1,0 +1,8 @@
+{
+  "venvPath": "/home/nabinguyen/yes/envs",
+  "venv": "unity-agent",
+  "extraPaths": [
+    "/home/nabinguyen/Dev/ml-agents/ml-agents",
+    "/home/nabinguyen/Dev/ml-agents/ml-agents-envs"
+  ]
+}
