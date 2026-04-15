@@ -21,7 +21,6 @@ This repository combines:
   - SAC
   - SAC with Hindsight Experience Replay (HER)
 - [TensorBoard](https://www.tensorflow.org/tensorboard/) logging
-- plotting utilities for exported TensorBoard CSV files
 
 This project is useful for learning:
 
