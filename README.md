@@ -64,9 +64,9 @@ The agent uses a **2-dimensional continuous action space**:
 
 This environment is mostly a **sparse-reward goal-reaching task** with a few penalties:
 
-- **+1.0** when the agent reaches the target
-- **small step penalty** every step to encourage faster solutions
-- **large negative penalty** if the agent falls off the ground
+- `+2.0` when the agent reaches the target
+- `-0.001` **small step penalty** every step to encourage faster solutions
+- `-1` **large negative penalty** if the agent falls off the ground
 
 Because the positive reward is only given when the target is reached, this setup is a good fit for **HER**, especially when combined with **SAC**.
 
