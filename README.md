@@ -99,5 +99,5 @@ Because the positive reward is only given when the target is reached, this setup
 ## Results
 |     | Soft Actor-Critic (SAC) | SAC + Hindsight Experience Replay (HER) | Proximal Policy Optimization (PPO) | 
 | --- | ------------------------| --------------------------------------- | -----------------------------------|
-| Episode Reward | ![](PythonScripts/Images/plots/sac_episode_reward.png | ![](PythonScripts/Images/plots/sac_her_episode_reward.png) | ![](PythonScripts/Images/plots/ppo_episode_reward.png) |
+| Episode Reward | ![](PythonScripts/Images/plots/sac_episode_reward.png) | ![](PythonScripts/Images/plots/sac_her_episode_reward.png) | ![](PythonScripts/Images/plots/ppo_episode_reward.png) |
 | Train Avg Reward | ![](PythonScripts/Images/plots/sac_train_avg_reward_20.png) | ![](PythonScripts/Images/plots/sac_her_train_avg_reward_20.png) | ![](PythonScripts/Images/plots/ppo_train_avg_reward_20.png) |
